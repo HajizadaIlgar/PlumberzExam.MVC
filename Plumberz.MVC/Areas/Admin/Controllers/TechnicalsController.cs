@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Plumberz.BL.Extensions;
 using Plumberz.BL.ViewModels.Technicals;
@@ -8,7 +9,7 @@ using Plumberz.DAL.Contexts;
 namespace Plumberz.MVC.Areas.Admin.Controllers
 {
     [Area(nameof(Admin))]
-
+    [Authorize(Roles = nameof(Admin))]
     public class TechnicalsController(PlumberzDbContext _context, IWebHostEnvironment _env) : Controller
     {
         public async Task<IActionResult> Index()

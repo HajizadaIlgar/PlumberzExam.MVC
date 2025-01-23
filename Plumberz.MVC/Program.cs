@@ -22,7 +22,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Password.RequireUppercase = false;
     opt.Lockout.AllowedForNewUsers = false;
     opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
-});
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<PlumberzDbContext>();
 
 var app = builder.Build();
 
