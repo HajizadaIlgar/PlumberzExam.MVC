@@ -1,0 +1,13 @@
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\bin\Debug\net8.0\Plumberz.Core.deps.json
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\bin\Debug\net8.0\Plumberz.Core.dll
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\bin\Debug\net8.0\Plumberz.Core.pdb
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.AssemblyInfoInputs.cache
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.AssemblyInfo.cs
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.sourcelink.json
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.dll
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\refint\Plumberz.Core.dll
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.pdb
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\ref\Plumberz.Core.dll
+C:\Users\II Novbe\Desktop\Plumberz Exam\Plumberz.MVC\Plumberz.Core\obj\Debug\net8.0\Plumberz.Core.csproj.AssemblyReference.cache
