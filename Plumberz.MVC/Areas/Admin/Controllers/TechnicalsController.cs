@@ -36,7 +36,7 @@ namespace Plumberz.MVC.Areas.Admin.Controllers
             {
                 ViewBag.Department = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
             }
-            string fileName = Path.Combine(_env.WebRootPath, "images");
+            string fileName = Path.Combine(_env.WebRootPath, "images", "tech");
             Technical tech = new Technical
             {
                 FullName = vm.FullName,
@@ -79,7 +79,7 @@ namespace Plumberz.MVC.Areas.Admin.Controllers
                 if (vm.Image.IsValidSize(400)) { ModelState.AddModelError("", "Sekilin olcusu telebolunandan daha coxdur "); }
             }
             var data = await _context.Technicals.Include(x => x.Department).Where(x => x.Id == id).FirstOrDefaultAsync();
-            string fileName = Path.Combine(_env.WebRootPath, "images");
+            string fileName = Path.Combine(_env.WebRootPath, "images", "tech");
 
             data.FullName = vm.FullName;
             data.DepartmentId = vm.DepartmentId;

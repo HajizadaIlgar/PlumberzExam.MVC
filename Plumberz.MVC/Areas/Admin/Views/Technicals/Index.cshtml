@@ -4,6 +4,7 @@
 }
 <table class="table">
     <a style="width:100px" class="btn btn-success" asp-action="Create" asp-controller="Technicals">Create</a>
+    <a style="width:60px" class="btn btn-warning" href="http://localhost:5148/" target="_blank">Ana Sehife</a>
     <thead>
         <tr>
             <th scope="col">Id</th>
@@ -19,7 +20,7 @@
             <tr>
                 <th scope="row">@item.Id</th>
                 <td>@item.FullName</td>
-                <td><img src="~/images/@item.ImageUrl" width="100"/></td>
+                <td><img src="~/images/tech/@item.ImageUrl" width="100"/></td>
                 <td>@item.Department.DepartmentName</td>
                 <td>
                     <a style="width:100px" class="btn btn-danger" asp-action="Update" asp-controller="Technicals" asp-route-id="@item.Id">Update</a>

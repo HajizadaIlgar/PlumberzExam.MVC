@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Plumberz.Core.Entities.Account;
 using Plumberz.DAL.Contexts;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +35,21 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseExceptionHandler(options =>
+{
+    options.Run(async context =>
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+        context.Response.ContentType = "application/json";
+        var exception = context.Features.Get<IExceptionHandlerFeature>();
+        if (exception != null)
+        {
+            var message = $"{exception.Error.Message}";
+            await context.Response.WriteAsync(message).ConfigureAwait(false);
+        }
+    });
+});
 
 app.UseAuthorization();
 app.MapControllerRoute(

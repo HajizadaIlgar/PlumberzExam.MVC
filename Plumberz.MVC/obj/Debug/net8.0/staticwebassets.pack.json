@@ -7933,6 +7933,22 @@
       "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "C:\\Users\\II Novbe\\Desktop\\Plumberz Exam\\Plumberz.MVC\\Plumberz.MVC\\wwwroot\\images\\tech\\1cmn4p0e.hbmScreenshot_3.png",
+      "PackagePath": "staticwebassets\\images\\tech\\1cmn4p0e.hbmScreenshot_3.png"
+    },
+    {
+      "Id": "C:\\Users\\II Novbe\\Desktop\\Plumberz Exam\\Plumberz.MVC\\Plumberz.MVC\\wwwroot\\images\\tech\\4eu0tv3i.fbqScreenshot_4.png",
+      "PackagePath": "staticwebassets\\images\\tech\\4eu0tv3i.fbqScreenshot_4.png"
+    },
+    {
+      "Id": "C:\\Users\\II Novbe\\Desktop\\Plumberz Exam\\Plumberz.MVC\\Plumberz.MVC\\wwwroot\\images\\tech\\i2ilwnrh.vppScreenshot_2.png",
+      "PackagePath": "staticwebassets\\images\\tech\\i2ilwnrh.vppScreenshot_2.png"
+    },
+    {
+      "Id": "C:\\Users\\II Novbe\\Desktop\\Plumberz Exam\\Plumberz.MVC\\Plumberz.MVC\\wwwroot\\images\\tech\\mjb5devi.3h4Screenshot_4.png",
+      "PackagePath": "staticwebassets\\images\\tech\\mjb5devi.3h4Screenshot_4.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Plumberz.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

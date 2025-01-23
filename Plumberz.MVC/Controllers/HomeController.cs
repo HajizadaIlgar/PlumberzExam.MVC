@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
+using Plumberz.DAL.Contexts;
 
 namespace Plumberz.MVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(PlumberzDbContext _context) : Controller
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _context.Technicals.Include(x => x.Department).Where(x => !x.IsDeleted).ToListAsync());
         }
     }
 }
